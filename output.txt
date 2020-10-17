@@ -1,0 +1,1020 @@
+name:  ASCII
+alternative name:  ISO-IR-006, ANSI_X3.4-1968, ANSI_X3.4-1986, ISO_646.irv:1991, ISO646-US, us, IBM367, cp367
+
+name:  Austroasiatic
+alternative name:  Mon–Khmer
+
+name: Austrian German
+alternative name: Standard Austrian German, Austrian High German
+
+name:  ABBA
+alternative name:  Björn & Benny, Agnetha & Anni-Frid (1972–1973)
+
+name:  Afro Celt Sound System
+alternative name:  ACSS, Afrocelts
+
+name:  Casa Batlló
+alternative name:  Casa dels ossos (House of Bones)
+
+name:  Andes Mountains
+alternative name:  Cordillera de los Andes
+
+name:  Anazarbus
+alternative name:  Caesarea, Justinopolis
+
+name:  Abydos
+alternative name:  Ⲉⲃⲱⲧ; Abdju
+
+name:  Aga Khan III
+alternative name:  Sultan Mahomed Shah
+
+name:  Albertus Magnus
+alternative name:  Albertus Teutonicus, Albertus Coloniensis, Albert the Great, Albert of Cologne
+
+name:  Algiers
+alternative name:  Alger
+
+name:  Ānanda
+alternative name:  Videhamuni; Dhamma-bhaṇḍāgārika (Treasurer of the Dhamma)
+
+name:  Amitabh Bachchan
+alternative name:  Angry Young Man, Shahenshah of Bollywood, Star of the Millennium, and Big B
+
+name:  Amerigo Vespucci
+alternative name:  Américo Vespucio (Spanish), Americus Vespucius (Latin), Américo Vespúcio (Portuguese), Alberigo Vespucci
+
+name: Andrew Tridgell
+alternative name: Tridge
+
+name:  Aaliyah
+alternative name:  Babygirl
+
+name:  Alexis Korner
+alternative name:  "Father of British Blues"
+
+name:  Aramaic
+alternative name:  ܐܪܡܝܐ, ארמיא, 𐡀𐡓𐡌𐡉𐡀Arāmāyā
+
+name:  Arc de Triomphe
+alternative name:  Arc de Triomphe de lÉtoile
+
+name:  Ajmer
+alternative name:  Ajayameru
+
+name:  Atari 2600
+alternative name:  Atari VCS (prior to November 1982)
+
+name:  Adrián Lamo
+alternative name:  Adrián Lamo, R. Adrián Lamo
+
+name:  Al Capone
+alternative name:  Scarface, Big Al, Big Boy, Public Enemy No. 1, Snorky
+
+name:  The Bronx
+alternative name:  Bronx County, New York
+
+name:  British Columbia
+alternative name:  {{native name|fr|Colombie-Britannique
+
+name:  Baruch Spinoza
+alternative name:  Benedictus de Spinoza
+
+name:  Beastie Boys
+alternative name:  The Young Aborigines (1978–1981)
+
+name:  Benny Andersson
+alternative name:  Göran AnderssonGöran B. AnderssonGöran B.B. AnderssonBenny B.G. AnderssonBenny Bror Göran Andersson
+
+name:   Braille
+alternative name:  {{Braille cell|type=6dot|b|r|l|size=20px
+
+name:  Bubble tea
+alternative name:  BobaPearl milk teaBoba milk teaBoba teaBoba nai chaTapioca tea
+
+name: Brittonic
+alternative name: Brythonic
+
+name:  Barnard College
+alternative name:  Barnard
+
+name:  Black Sabbath
+alternative name:  {{flatlist|
+
+name:  The Central Artery/Tunnel Project
+alternative name:  The Big Dig
+
+name: Beagle
+alternative name: English Beagle
+
+name:  Blind Willie McTell
+alternative name:  Blind Sammie, Georgia Bill, Hot Shot Willie, Blind Willie, Barrelhouse Sammy, Pig & Whistle Red, Blind Doogie, Red Hot Willie Glaze, Red Hot Willie, Eddie McTier
+
+name: Berber
+alternative name: ⵜⴰⵎⴰⵣⵉⵖⵜ, ⵜⵎⵣⵗⵜ, Tamaziɣt
+
+name:  Baudot code (ITA1)
+alternative name:  International Telegraph Alphabet 1
+
+name:  ITA2 Baudot–Murray code
+alternative name:  International Telegraph Alphabet 2
+
+name:  Borzoi
+alternative name:  {{plainlist|
+
+name:  Basenji
+alternative name:  {{unbulleted list|African bush dog|African barkless dog|Ango angari|Congo dog|Zande dog
+
+name:  Bob Wills
+alternative name:  "King of Western Swing"
+
+name:  Bermuda Triangle
+alternative name:  Devils Triangle
+
+name: Bo Diddley
+alternative name: Ellas McDaniel, The Originator
+
+name:  Béla Lugosi
+alternative name:  Arisztid Olt
+
+name:  Big Audio Dynamite
+alternative name:  BAD
+
+name:  Khmer
+alternative name:  Cambodian
+
+name:  Old Khmer
+alternative name:  Angkorian Khmer
+
+name: Country
+alternative name:  Country and western
+
+name:  Constantinople
+alternative name:  Byzantion (earlier Greek name), Nova Roma ("New Rome"), Miklagard/Miklagarth (Old Norse), Tsarigrad (Slavic), Qustantiniya (Arabic), Basileuousa ("Queen of Cities"), Megalopolis ("the Great City"), Poli ("the City"),
+
+name:  Courtney Love
+alternative name:  Courtney Love Cobain
+
+name:  County Mayo
+alternative name:  {{Pad top italic|Contae Mhaigh Eo
+
+name:  County Fermanagh
+alternative name:  {{Pad top italic|Contae Fhear Manach, Coontie Fermanagh
+
+name:  The Church of Jesus Christ of Latter-day Saints
+alternative name:  {{ublist |LDS Church |Mormon Church
+
+name:  Church of England
+alternative name:  Anglican Church
+
+name:  CN Tower
+alternative name:  Canadian National Tower, Canadas National Tower
+
+name:  Corcovado 
+alternative name:  (Monte Cristo)
+
+name:  County Dublin
+alternative name:  Contae Bhaile Átha Cliath
+
+name:  Chris Marker
+alternative name:  Palotin Giron (Revue Français), Chris Mayor (Esprit), Christian Villeneuve (PEC), Marc Dornier (Esprit), Chris Marker, Chris. Marker, Chris and Magic Marker (Resnais film), Christian Marker (Book Translation), Fritz Markassin (Book Translation), T. T. Toukanov (Book Translation), Jacopo Berezini (Book Translation), Jacopo Berenzini (Film), Boris Villeneuve (Book Translation), Sandor Krasna (Film + Flickr), Michel Krasna (Film), Dolorès Walfisch (Fictional Interview), Eugene William Harper (Web), Hayao Yamaneko (Film + Web), Guillaume-en-Egypte (Review + Web), Sergei Murasaki (Second Life), Kosinki (Youtube), Iterovitch...  
+
+name:  Couscous
+alternative name:  Cuscus, kuskus
+
+name:  Chiang Kai-shek
+alternative name:  register name
+
+name:  Crowded House
+alternative name:  The Mullanes (1985)
+
+name:  Cold Chisel
+alternative name:  {{flatlist|
+
+name:  Cookie
+alternative name:  Biscuit
+
+name:  Clement of Alexandria
+alternative name:  Clement Alexandrine
+
+name:  Cem Karaca
+alternative name:  Cem Baba
+
+name:  Coptic Orthodox Patriarchate of Alexandria
+alternative name:  Coptic Church, Coptic Orthodox Church
+
+name:  Chuck Jones
+alternative name:  Charles M. Jones , The Father of Contemporary Animation, M. Charl Jones
+
+name:  David Lynch
+alternative name:  Judas Booth
+
+name:  Dave Grohl
+alternative name:  Late!
+
+name:  Demeter
+alternative name:  Sito, Thesmophoros
+
+name:  Dar es-Salaam
+alternative name:  Mzizima
+
+name:  Stephen Donaldson
+alternative name:  Donny the Punk
+
+name:  Dan &quot;D. B.&quot; Cooper
+alternative name:  D. B. Cooper
+
+name:  Deicide
+alternative name:  {{flatlist|
+
+name:  Dundee
+alternative name:  Dùn Dè, Dundee
+
+name: Devanagari
+alternative name:  देवनागरी
+
+name:  Daisy Duck
+alternative name:  Super Daisy
+
+name:  Donald Campbell
+alternative name:  "The Skipper"
+
+name:  Helsingør
+alternative name:  Elsinore
+
+name:  Edward Mitchell Bannister
+alternative name:  Edwin, Ned
+
+name:  Erasmus 
+alternative name:  {{Plainlist
+
+name: Orthodox Catholic Church|native_name
+alternative name: Eastern Orthodox Church (very common), Orthodox Church, Orthodox Christian Church
+
+name:  Ennio Morricone
+alternative name:  Maestro, Dan Savio, Leo Nichols
+
+name:  Evliya Çelebi
+alternative name:  Tchelebi in FrenchTchalabi/Chalabi in English
+
+name:  Electric Light Orchestra
+alternative name:  {{hlist||ELO|Jeff Lynnes ELO
+
+name:  Elvis Costello[[Order of the British Empire|OBE]]
+alternative name:  {{flatlist|
+
+name: Frisian
+alternative name: West Frisian:FryskSaterland Frisian:FräiskNorth Frisian:Friisk, fresk, freesk, frasch, fräisch, freesch
+
+name:  Finno-Ugric
+alternative name:  Finno-Ugrian
+
+name: West Flemish
+alternative name: West-Vlaams
+
+name:  French fries
+alternative name:  Chips, finger chips, fries, frites, hot chips, steak fries, potato wedges, wedges
+
+name:  Fencing
+alternative name:  Épée Fencing, Foil Fencing, Sabre Fencing
+
+name:  Frank Capra
+alternative name:  Frank Russell Capra
+
+name:  Fanny Abington
+alternative name:  Nosegay Fan
+
+name:  Germanic
+alternative name:  Teutonic
+
+name:  Gheorghe Zamfir
+alternative name:  Master of the Pan Flute
+
+name:  Goran Bregović
+alternative name:  Brega
+
+name:  Gazpacho
+alternative name:  Andalusian gazpacho, Gaspacho 
+
+name:  Goidelic
+alternative name:  Gaelic
+
+name:  {{raise|0.2em|Guangzhou}}
+alternative name:  Canton; Kwangchow
+
+name:  Guernica
+alternative name:  Guernica y Luno
+
+name:  Gardnerian Wicca
+alternative name:  Gardnerian witchcraft
+
+name:  Guy Fawkes
+alternative name:  Guido Fawkes, John Johnson
+
+name:  Greyhound
+alternative name:  English Greyhound
+
+name:  Geiger–Müller counter
+alternative name:  Geiger Muller counter
+
+name: Gurmukhī (ਗੁਰਮੁਖੀ)
+alternative name: Punjabi script
+
+name:  Game Boy Color
+alternative name:  GBC / CGB-001
+
+name:  Gene Roddenberry
+alternative name:  Robert Wesley
+
+name: Hans Selye
+alternative name: Selye János (Hungarian)
+
+name:  Herman Brood
+alternative name:  Rock n roll junkie
+
+name:  Hawkwind
+alternative name:  Hawkwind Zoo, Sonic Assassins, Hawklords, Psychedelic Warriors, Group X, Hawkwind Light Orchestra, The Elves of Silbury Hill
+
+name:  Hindi
+alternative name:  Modern Standard Hindi
+
+name: Hiragana
+alternative name: 平仮名ひらがな
+
+name:  Hunter Collegein the City of New York
+alternative name:  Hunter College
+
+name:  Indo-Iranian
+alternative name:  Aryan
+
+name:  Iqaluit
+alternative name:  Frobisher Bay
+
+name:  Iao Valley
+alternative name:  {{okinaĪao Valley
+
+name:  Ingmar Bergman
+alternative name:  Buntel Eriksson
+
+name:  ISO/IEC 8859-1:1998
+alternative name:  iso-ir-100, csISOLatin1, latin1, l1, IBM819, CP819
+
+name:  IBM 3179G
+alternative name:  IBM 3179G Color Display Station
+
+name:  Ca EivissencPodenco Ibicenco
+alternative name:  Ibizan Hound, Ibizan Warren Hound
+
+name:  Italian Greyhound
+alternative name:  {{ubl|FCI: Italian Sighthound| Italian: Piccolo levriero Italiano|italic=no
+
+name:  İskender kebab
+alternative name:  Uludağ kebab  Bursa kebab
+
+name:  Ira Gershwin
+alternative name:  Israel GershvinArthur Francis
+
+name:  Jello Biafra
+alternative name:  {{hlist | Occupant | Count Ringworm | Osama McDonald | J Lo
+
+name:  John Wyndham
+alternative name:  John Wyndham Parkes Lucas Beynon Harris
+
+name:  Joel and Ethan Coen
+alternative name:  {{plain list|
+
+name:  Joey Ramone
+alternative name:  Joey Ramone, Jeff Starship
+
+name:  John Lennon
+alternative name:  John Winston Ono Lennon
+
+name:  Jeff Mills
+alternative name:  The Wizard, True Faith
+
+name:  Jan Hus
+alternative name:  John Hus, John Huss, Jan Hus
+
+name:  John Wayne
+alternative name:  Marion Mitchell Morrison, Duke
+
+name:  Jeffrey Lionel Dahmer
+alternative name:  The Milwaukee CannibalThe Milwaukee Monster
+
+name:  Jet Li
+alternative name:  Li Yangzhong
+
+name:  John and Roy Boulting
+alternative name:  Collectively: Boulting brothersJohn: John Edward BoultingRoy: "Roy" Alfred Clarence Boulting
+
+name:  Julian Lennon
+alternative name:  Jules, Jude
+
+name: Justin Martyr 
+alternative name:  Justin the Philosopher
+
+name:  Jan Długosz
+alternative name:  {{Flatlist|
+
+name:  Joni Mitchell
+alternative name:  Roberta Joan MitchellJoni Anderson
+
+name:  John Walker Lindh
+alternative name:  Sulayman al-Faris, Abu Sulayman al-Irlandi
+
+name:  John Stauber
+alternative name:  Tebogo
+
+name:  James Robert Flynn
+alternative name: The Dead Man
+
+name:  Joy Division
+alternative name:  Warsaw (1977–1978)
+
+name:  Frost
+alternative name:  {{flatlist|
+
+name:  Kool Keith
+alternative name:  {{hlist|Dr. Octagon|Dr. Dooom|Kool Keith|Black Elvis|Dr. Ultra|Crazy Lou|Poppa Large|Keith Korg|Dicky Long Docking|Platinum Rich|Underwear Pissy|Number One Producer
+
+name:  Kattegat
+alternative name:  Kattegatt
+
+name:  Karate (空手)
+alternative name:  Karate Do (空手道)
+
+name:  Kon Ichikawa
+alternative name:  Giichi Ichikawa
+
+name: Katakana
+alternative name: 片仮名カタカナ
+
+name:  Klingon
+alternative name:  {{PUA|&#xF8E4;&#xF8D7;&#xF8DC;&#xF8D0;&#xF8DB; &#xF8D6;&#xF8DD;&#xF8D9;
+
+name:  Kvass
+alternative name:  Квас, хлібний квас, kwas chlebowy (bread kvass), kvas, kvasz, kawas, cvas, gira, kali
+
+name:  Kenji Sahara
+alternative name:  Tadashi Ishihara, Jun Manjōme
+
+name:  Komondor
+alternative name:  Hungarian Commonmop, Hungarian Sheepdog, Mop Dog
+
+name:  Keeshond
+alternative name:  Dutch Barge Dog,Smiling Dutchman,German Spitz,Deutscher Wolfspitz,Wolfspitz
+
+name:  Khoisan
+alternative name:  Khoesaan
+
+name:  Klaus Barbie
+alternative name:  "Butcher of Lyon"
+
+name:  Kid Rock
+alternative name:  Bobby Shazam
+
+name:  Kimberly Beck
+alternative name:  Kimberly Beck-Hilton
+
+name:  Kevin Warwick
+alternative name:  "Captain Cyborg"[https://www.theregister.co.uk/2012/07/26/captain_cyborg_gong Captain Cyborg accepts another degree from puny humans], The Register, 26 July 2012[https://www.theguardian.com/science/2004/apr/29/badscience.science The Return of Captain Cyborg], The Guardian, 29 April 2004[http://forms.theregister.co.uk/search/?q=captain+cyborg List of articles mentioning "Captain Cyborg"] at The Register
+
+name:  Li Bai
+alternative name:  Taibai
+
+name:  Lunar Roving Vehicle
+alternative name:  {{plainlist|
+
+name:  Louis Armstrong
+alternative name:  {{hlist|"Satchmo"|"Satch"|"Pops"|"Louie"
+
+name:  LTJ Bukem
+alternative name:  The Bookworm, Apollo Two
+
+name:  LEO I
+alternative name:  Lyons electronic office I
+
+name:  Marina
+alternative name:  Malintzin, La Malinche
+
+name:  Liberation Tigers of Tamil Eelam
+alternative name:  Tamil Tigers
+
+name:  Lemmy
+alternative name:  {{hlist|Lemmy Kilmister|Ian Fraser Willis
+
+name:  Linkin Park
+alternative name:  {{flatlist|
+
+name:  Manitoba
+alternative name:  {{native name|cr|Manitou-wapow, {{native name|oj|Manidoobaa
+
+name:  Mumbai 
+alternative name:  Bombay
+
+name:  Marilyn Monroe
+alternative name:  Norma Jeane Baker
+
+name:  Gandhi
+alternative name:  Mahatma Gandhi, Bapu ji, Gandhi ji, M. K. Gandhi
+
+name:  Miyamoto Musashi
+alternative name:  Niten Dōraku; Shinmen Musashi no Kami Fujiwara no Harunobu
+
+name:  Madhuri Dixit
+alternative name:  Madhuri Dixit Nene
+
+name:  IC 342/Maffei Group
+alternative name:  IC 342 Group, Maffei 1 Group, LGG 104
+
+name:  士郎 正宗
+alternative name:  Shirou Masamune
+
+name:  Morihei Ueshiba
+alternative name:  Moritaka Ueshiba (植芝守高), Tsunemori (常盛)
+
+name: Manx
+alternative name: Manx Gaelic
+
+name:  Macaroni
+alternative name:  Maccheroni (single maccherone)
+
+name:  Mazda MX-5
+alternative name:  Mazda Roadster (Japan)Eunos Roadster (Japan)Mazda MX-5 Miata (North America)Mazda Miata (North America)
+
+name:  Mesolithic
+alternative name:  Epipaleolithic (for the Near East)
+
+name:  Malcolm X
+alternative name:  el-Hajj Malik el-Shabazz ({{lang-ar|ٱلْحَاجّ مَالِك ٱلشَّبَازّ|al-Ḥājj Mālik ash-Shabāzz)
+
+name:  Mickey Mouse
+alternative name:  {{Plainlist|
+
+name:  Miso (味噌)
+alternative name:  Soybean paste
+
+name:  Matzo
+alternative name:  Matzah, matza
+
+name:  Michael Nesmith
+alternative name:  {{flatlist|
+
+name:  Mecca
+alternative name:  BakkahبكةMother of all Settlementsام القرى
+
+name:  New Brunswick
+alternative name:  {{native name|fr|Nouveau-Brunswick
+
+name:  Nova Scotia
+alternative name:  {{native name|fr|Nouvelle-Écosse, {{native name|gd|Alba Nuadh
+
+name:  Northwest Territories
+alternative name:  {{plainlist|
+
+name: Niger–Congo
+alternative name: Niger–Kordofanian 
+
+name:  Nijmegen
+alternative name:  Nimeguen
+
+name:  Northern Sotho
+alternative name:  Pedi
+
+name:  {{raise|0.2em|Nanjing}}
+alternative name:  Nanking, Nan-ching
+
+name:  Nintendo 64
+alternative name:  Project Reality (code name), Ultra 64 (planned product name), Hyundai Comboy 64 (Korea)
+
+name:  Newfoundland and Labrador
+alternative name:  {{plainlist|
+
+name:  Obituary
+alternative name:  {{flatlist|
+
+name: Old Turkic script
+alternative name: Orkhon script
+
+name:  Oliver Lieb
+alternative name:  Alpha Omega, Ambush, The, Archon, Ecano, Every, Genetix, Gobiman, Ivan, LSG, Mark III, Mindspace, Multiplicity, O.L., Paragliders, Phools Inc, Radical Impression, S.O.L., Smoked, Snakemen, Solieb, Spicelab, Strike, Superspy
+
+name:  Magnavox Odyssey 2
+alternative name:  {{plainlist|
+
+name:  Old Norse
+alternative name:  Old Nordic
+
+name: Interlingue
+alternative name: Occidental
+
+name:  Public Enemy
+alternative name:   Public Enemy
+
+name:  Punk rock
+alternative name:  Punk
+
+name:  Prince Edward Island
+alternative name:  {{native name|fr|Île-du-Prince-Édouard{{native name|mic|Epekwitk{{native name|gd|Eilean a Phrionnsa
+
+name:  Paula Abdul
+alternative name:  Paula
+
+name:  Prince Paul
+alternative name:  The Undertaker, Chest Rockwell
+
+name:  Hanyu Pinyin
+alternative name:  汉语拼音, 漢語拼音
+
+name:  Photography
+alternative name:  Science or art of creating durable images
+
+name:  PDP-10
+alternative name:  DECsystem-10
+
+name:  DECSYSTEM-20
+alternative name:  PDP-20
+
+name:  Pseudo-Dionysius the Areopagite
+alternative name:  {{startplainlist
+
+name:  Proto-Human
+alternative name:  Proto-Sapiens, Proto-World
+
+name:  Portsmouth
+alternative name:  City of Portsmouth
+
+name:  Standard Chinese
+alternative name:  Modern Standard Mandarin
+
+name: The Pyrenees Mountains
+alternative name: {{lang-es|Pirineos{{lang-fr|Pyrénées{{lang-ca|Pirineus{{lang-an|Pirineus{{lang-oc|Pirenèus{{lang-eu|Pirinioak, Auñamendiak
+
+name:  Proclus Lycius
+alternative name:  "The Successor"
+
+name:  Potato chips
+alternative name:  Crisps
+
+name:  Pretoria
+alternative name:  "Tshwane"
+
+name:  Patricia Soltysik
+alternative name:  Mizmoon, Zoya, Pat
+
+name:  Quechuan
+alternative name:  Kechua / Runa Simi
+
+name: Rocky Mountains
+alternative name: The Rockies (en), Les montagnes Rocheuses (fr), Montañas Rocosas, Rocallosas (es)
+
+name:  Richard Feynman
+alternative name:  Dick Feynman"Everybody called him Dick." – Freeman DysonQuote from [https://www.webofstories.com/play/freeman.dyson/58 June 1998 interview with Silvan "Sam" Schweber], posted at webofstories.com on January 24, 2008 (view [https://www.youtube.com/watch?v=pToteaNcIdk on YouTube])
+
+name:  Romanian
+alternative name:  Daco-Romanian
+
+name:  Raëlism
+alternative name:  Raëlianism and Raëlian movement
+
+name:  Rubiks Cube
+alternative name:  Magic Cube, Speed Cube, Puzzle Cube, Cube
+
+name:  Robin Hood
+alternative name:  {{unbulleted list|Robyn Hode |Robin of Sherwood |Robin of Loxley (Locksley) |Robert Fitzooth |Robin de Courtenay |Sir Robert Hode |Robert Huntingdon
+
+name:  Robin Wright
+alternative name:  Robin Wright Penn
+
+name: Sino-Tibetan
+alternative name: Trans-Himalayan
+
+name:  Slavic
+alternative name:  Slavonic
+
+name:  Sarajevo
+alternative name:  Сарајево
+
+name:  Simon &amp; Garfunkel
+alternative name:  Tom & Jerry
+
+name:  Spanish
+alternative name:  Castilian
+
+name:  Submarine sandwich
+alternative name:  {{Collapsible list
+
+name:  Semitic
+alternative name:  Syro-Arabian
+
+name:  Sardinian
+alternative name:  Sard
+
+name: Sorbian
+alternative name: {{native name|hsb|serbšćina, serbsce, {{native name|dsb|serbšćina, serbski
+
+name:  {{collapsible list
+alternative name: Republic of Singapore
+
+name:  Sarah Michelle Gellar
+alternative name:  Sarah Michelle Prinze
+
+name:  Serbo-Croatian
+alternative name:  {{plainlist|
+
+name:  Shirehorses
+alternative name:  The Mighty Horse
+
+name:  Steve Wozniak
+alternative name:  {{plainlist|
+
+name:  Savate-boxe française
+alternative name:  French footfighting, French boxing, French kickboxing
+
+name:  Savate Boxing
+alternative name:  French footfighting, French boxing, French kickboxing
+
+name:  Slovene
+alternative name:  Slovenian
+
+name:  Sushi
+alternative name:  すし, 寿司, 鮨
+
+name:  Scottish Gaelic
+alternative name:  Scots Gaelic, Gaelic
+
+name:  Siberian Husky
+alternative name:  Chukcha
+
+name:  Scuba set
+alternative name:  {{ubl|Scuba gear|Open-circuit scuba|Diving rebreather|Aqualung|Bailout set
+
+name:  Soup allImperatrice
+alternative name:  Zuppa allImperatrice
+
+name:  Seventh-day Adventist Church
+alternative name:  Adventist church, SDA (informal)
+
+name:  System of a Down
+alternative name:  {{flatlist|
+
+name:  Saint John
+alternative name:  Menahkwesk
+
+name:  Snowy Mountains
+alternative name:  The Snowies
+
+name:  Sega Pico
+alternative name:  Kids Computer Pico
+
+name:  Scottish Deerhound
+alternative name:  Deerhound
+
+name:  Sloughi
+alternative name:  Arabian Greyhound, Sloughi Moghrebi
+
+name:  Galgo Español
+alternative name:  Spanish Galgo, Spanish greyhound
+
+name:  Shiba Inu
+alternative name:  {{plainlist|
+
+name:  Spectroscope
+alternative name:  Spectrograph
+
+name:  Second generation (SG)
+alternative name:  Chevrolet Forester (India)
+
+name:  Siouxsie and the Banshees
+alternative name:  Janet and the Icebergs
+
+name:  Salians 
+alternative name:  Reges salici
+
+name:  Kra–Dai
+alternative name:  Tai–Kadai, Daic, Kadai
+
+name:  Titanic Thompson
+alternative name:  Titanic Thompson
+
+name:  Trip hop
+alternative name:  Downtempo
+
+name:  Tim Berners-Lee
+alternative name:  TimBL, TBL
+
+name:  Troy
+alternative name:  Truwisa
+
+name:  Taiwan
+alternative name:  Formosa
+
+name:  The Hague
+alternative name:  {{nobold|{{native name|nl|s-Gravenhage|icon=no
+
+name:  The Modern Lovers
+alternative name:  Jonathan Richman and The Modern Lovers
+
+name:  Tricky
+alternative name:  {{hlist|Tricky Kid|Tricky Rock
+
+name:  London Eye
+alternative name:  Millennium Wheel
+
+name:  Taekwondo
+alternative name: TKD, Tae Kwon Do, Tae Kwon-Do, Taekwon-Do, Tae-Kwon-Do 
+
+name:  Bay City Rollers
+alternative name:  The Saxons, The Rollers, The New Rollers
+
+name:  The Bangles
+alternative name:  Bangles, The Bangs
+
+name:  The Pogues
+alternative name:  Pogue Mahone (1982–1984)
+
+name:  Tàijíquán / Tai chi chüan({{lang|zh|太極拳}})
+alternative name:  Tàijí; Tai chi
+
+name:  Thích Nhất Hạnh
+alternative name:  Thầy (teacher)
+
+name:  Tyre
+alternative name:  Sour (Lebanese French)
+
+name:  Tomato sauce
+alternative name:  Salsa Roja
+
+name:  The Band
+alternative name:  Levon and the&nbsp;HawksCanadian Squires
+
+name:  Tommy James and the Shondells
+alternative name:  {{unbulleted list|Tom & The Tornadoes|The Shondells
+
+name:  They Might Be Giants
+alternative name:  {{flatlist|
+
+name:  Tupac Shakur
+alternative name:  {{flatlist|
+
+name:  Germs
+alternative name:  Sophistifuck and the Revlon Spam Queens, GI
+
+name:  Timothy McVeigh
+alternative name:  Tim TuttleDaryl BridgesRobert Kling
+
+name:  The Chemical Brothers
+alternative name:  {{hlist|The Dust Brothers|The 237 Turbo Nutters|Chemical Bros.|Chemical Ed & Chemical Tom (respectively)
+
+name:  Uralic
+alternative name:  Uralian
+
+name:  Unicode
+alternative name:  Universal Coded Character Set (UCS)
+
+name:  University of Oxford
+alternative name:  The Chancellor, Masters and Scholars of the University of Oxford
+
+name:  United Nations University
+alternative name:  UNU
+
+name:  University for Peace / Universidad para la Paz
+alternative name:  UPEACE / UPAZ
+
+name:  Urdu
+alternative name:  Modern Standard Urdu
+
+name:  Victor of Aveyron
+alternative name:  The Wild Boy of Aveyron
+
+name:  Lana and Lilly Wachowski
+alternative name:  Collectively:{{ubl|The Wachowskis|The Wachowski Brothers (before 2010)
+
+name:  One World Trade Center
+alternative name:  {{unbulleted list|1 WTC|North Tower|WTC 1|Building A|Building 1|Tower 1
+
+name:  Wing Chun Kuen
+alternative name:  Ving Tsun, Wing Tsun, Ving Chun
+
+name:  Wade–Giles
+alternative name:  威翟式拼音
+
+name:  Whippet
+alternative name:  English Whippet or Snap dog
+
+name:  Wire
+alternative name:  Wir
+
+name:  Yukon
+alternative name:  {{native name|gwi|Ųųg Han, {{native name|tce|Chu Nìikwän 
+
+name:  Yngwie Malmsteen
+alternative name:  {{flatlist|
+
+name:  Yukihiro Matsumotoまつもと ゆきひろ
+alternative name:  Matz
+
+name:  Nissan Z-car
+alternative name:  Nissan Fairlady Z (Japan)
+
+name:  Nguni stick-fighting
+alternative name:  Zulu stick-fighting
+
+name:  The Who
+alternative name:  {{hlist|The Detours|The High Numbers
+
+name:  First Transcontinental Railroad
+alternative name:  Pacific Railroad
+
+name:  Fatboy Slim
+alternative name:  Norman CookSee Fatboy Slim#Aliases|aliases
+
+name:  Medina
+alternative name:  The Prophets City  مدينة النبي 
+
+name:  Christine McVie
+alternative name:  Christine Perfect
+
+name:  Ilona Staller
+alternative name:  Cicciolina
+
+name:  Burzum
+alternative name:  Count Grishnackh
+
+name:  Larry Gelbart
+alternative name:  Francis Burns, Elsig
+
+name:  Harriet Tubman
+alternative name:  Minty, Moses
+
+name:  Stevie Case
+alternative name:  KillCreek
+
+name:  Marcus Junius Brutus
+alternative name:  Quintus Servilius Caepio Brutus
+
+name:  Halebidu
+alternative name:  Dorasamudra or Dwarasamudra
+
+name:  Jeff Minter
+alternative name:  Yak
+
+name:  Plzeň
+alternative name:  Pilsen
+
+name:  Micky Dolenz
+alternative name:  {{flatlist|
+
+name:  Ramen
+alternative name:  shina soba, chūka soba
+
+name:  Seal
+alternative name:  Sealhenry Samuel Biography & History |url=https://www.allmusic.com/artist/seal-mn0000576718/biography |publisher=AllMusic |accessdate=19 September 2018 
+
+name:  Los Alamos National Laboratory
+alternative name:  {{hlist|LANL
+
+name:  Finglas
+alternative name:  {{pad top italic|Fionnghlas
+
+name:  Juan García Esquivel
+alternative name:  Esquivel!
+
+name:  Goldie
+alternative name:  {{hlist|Goldie|Rufige Kru|Metalheadz
+
+name:  Bangers and mash
+alternative name:  Sausages and mash
+
+name:  Donnybrook
+alternative name:  {{Pad top italic|Domhnach Broc
+
+name:  Ballsbridge
+alternative name:  {{Pad top italic|Droichead na Dothra
+
+name:  Amaterasu
+alternative name:  Amaterasu-ōmikami, Ōhirume-no-muchi-no-kami
+
+name:  Robert I Estienne 
+alternative name:  Robert Stephanus, Robert Stephens, Roberti Stephani
+
+name:  Tony Hoare
+alternative name:  C. A. R. Hoare
+
+name: Dari
+alternative name: Dari Persian
+
+name:  Sailor Moon
+alternative name:  Usagi Tsukino Princess Serenity (past life name)Neo-Queen Serenity (30th century future self)
+
+name:  Alappuzha district
+alternative name:  Alleppey district
+
+name:  Russian Orthodox Church([[Patriarch of Moscow and all Rus|Moscow Patriarchate]])
+alternative name:  Russian Church, Moscow Patriarchate
+
+name:  Jean Baptiste Point du Sable
+alternative name:  Point de Sable, Point au Sable, Point Sable, Pointe DuSable
+
+name:  Thessaloniki
+alternative name:  Saloniki
+
