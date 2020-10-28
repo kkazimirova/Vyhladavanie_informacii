@@ -1,10 +1,11 @@
+from datetime import datetime
+
 import bz2file
 import re
 
 
 def open_input_file():
-    bz_file = bz2file.open("la.bz2", mode="rt", encoding='utf8')
-    # print(bz_file.tell())
+    bz_file = bz2file.open("enwiki_latest_articles1.bz2", mode="rt", encoding='utf8')
     return bz_file
 
 def open_output_file():
@@ -13,11 +14,8 @@ def open_output_file():
 
 
 def read_file(input_file, output_file, offset=0):
-    # input_file.seek(offset)
     for line in iter(input_file.readline, ''):
         if (is_infobox_start(line)):
-            # offset = input_file.tell()
-            # parse_infobox(input_file, offset, output_file)
             name_infobox = None
             alternate_infobox = None
 
@@ -30,14 +28,12 @@ def read_file(input_file, output_file, offset=0):
                     alternate_infobox = alternate_temp
 
                 if name_infobox and alternate_infobox:
-                    print("name: " + name_infobox)
-                    print("alternate: " + alternate_infobox)
+                    # print("name: " + name_infobox)
+                    # print("alternate: " + alternate_infobox)
                     output_file.write("name: " + name_infobox + "\nalternative name: " + alternate_infobox + "\n")
                     break
                 if is_infobox_end(line2):
                     break
-
-            # print()
 
     input_file.close()
     output_file.close()
@@ -81,8 +77,19 @@ def is_alternate(line):
 
 def parse_name(name):
     name = re.sub(r'\n', '', name)
+    name = re.sub(r"&lt;br[\s]?.?&gt;", ", ", name)
     name = re.sub(r'&lt(.*?)&gt;', '', name)
-    name = re.sub(r"'*", "", name)
+    name = re.sub(r"&quot;", "\"", name)
+    name = re.sub(r"&amp;", "&", name)
+
+    name = re.sub(r"{{raise\|.* ?\|", "", name)
+
+    name = re.sub(r"\[\[[\w\s\(\)]*\|", "", name)
+    name = re.sub(r"\[\[|\]\]", "", name)
+
+    name = re.sub(r"}}", "", name)
+
+    name = re.sub(r"''+", "", name)
 
 
     if name.isspace():
@@ -93,10 +100,10 @@ def parse_name(name):
 def parse_alternate(alternate_line):
     print(alternate_line)
 
-    alternate_line = re.sub(r"'*", "", alternate_line)
+    alternate_line = re.sub(r"''+", "", alternate_line)
     alternate_line = re.sub(r"&amp;", "&", alternate_line)
     alternate_line = re.sub(r"&quot;", "\"", alternate_line)
-    alternate_line = re.sub(r"&lt;br&gt;", ", ", alternate_line)
+    alternate_line = re.sub(r"&lt;(br[\s]?.?)|(hr)&gt;", ", ", alternate_line)
 
     alternate_line = re.sub(r"{{citation(.*?)}}", "", alternate_line)
     alternate_line = re.sub(r"{{[Cc]ite (.*?)}}", "", alternate_line)
@@ -104,11 +111,28 @@ def parse_alternate(alternate_line):
     alternate_line = re.sub(r"{{small\|", "", alternate_line)
 
 
+    alternate_line = re.sub(r"\[https:.* ?]", "", alternate_line)
+
+
+
     alternate_line = re.sub(r"&lt(.*?)&gt;", "", alternate_line)
 
-    alternate_line = re.sub(r"{{lang\|.*?\|", "", alternate_line)
+    # {{lang|es|Cordillera de los Andes|}}
+    alternate_line = re.sub(r"{{lang.*?\|.*?\|", "", alternate_line)
+
+    # {{native name | fr | Colombie - Britannique
+    alternate_line = re.sub(r"{{native name\|.*?\|", "", alternate_line)
+
+    # |other_name             = {{Pad top italic|{{lang|ga|Contae Mhaigh Eo}}}}
+    alternate_line = re.sub(r"{{[Pp]ad top italic\|", "", alternate_line)
+
+    # |other_name = {{okina}}Īao Valley
+    alternate_line = re.sub(r"{{okina", "", alternate_line)
+
+
     alternate_line = re.sub(r"}}", "", alternate_line)
 
+    # Américo Vespucio ([[Spanish language|Spanish]]), Americus Vespucius ([[Latin]]),
     alternate_line = re.sub(r"\[\[[\w\s\(\)]*\|", "", alternate_line)
     alternate_line = re.sub(r"\[\[|\]\]", "", alternate_line)
 
@@ -121,34 +145,17 @@ def parse_alternate(alternate_line):
 
     return alternate_line
 
-# def parse_infobox(input_file, offset, output_file):
-#
-#     input_file.seek(offset)
-#
-#     name_infobox = None
-#     alternate_infobox = None
-#
-#     for line in iter(input_file.readline, ''):
-#         name_temp = is_name(line)
-#         alternate_temp = is_alternate(line)
-#         if name_temp:
-#             name_infobox = name_temp
-#         if alternate_temp:
-#             alternate_infobox = alternate_temp
-#
-#         if name_infobox and alternate_infobox:
-#             print("name: " + name_infobox)
-#             print("alternate: " + alternate_infobox)
-#             output_file.write("name: " + name_infobox + "   alternative name: " + alternate_infobox)
-#             break
-#         if is_infobox_end(line):
-#             break
-
-
 
 if __name__ == '__main__':
+    print(datetime.now())
 
     input_file = open_input_file()
     output_file = open_output_file()
     read_file(input_file, output_file)
+    print(datetime.now())
 
+# alternative name:  Rock n roll junkie
+# name:  Italian Greyhound
+# alternative name:  {{ubl|FCI: Italian Sighthound| Italian: Piccolo levriero Italiano|italic=no
+# name:  Manitoba
+# alternative name:  {{native name|cr|Manitou-wapow, {{native name|oj|Manidoobaa
