@@ -103,7 +103,7 @@ def parse_alternate(alternate_line):
     alternate_line = re.sub(r"''+", "", alternate_line)
     alternate_line = re.sub(r"&amp;", "&", alternate_line)
     alternate_line = re.sub(r"&quot;", "\"", alternate_line)
-    alternate_line = re.sub(r"&lt;(br[\s]?.?)|(hr)&gt;", ", ", alternate_line)
+    alternate_line = re.sub(r"&lt;((br[\s]?)|(hr))&gt;", ", ", alternate_line)
 
     alternate_line = re.sub(r"{{citation(.*?)}}", "", alternate_line)
     alternate_line = re.sub(r"{{[Cc]ite (.*?)}}", "", alternate_line)
