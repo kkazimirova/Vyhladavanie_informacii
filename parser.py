@@ -3,14 +3,16 @@ from datetime import datetime
 import bz2file
 import re
 
+import config
+
 
 def open_input_file():
-    bz_file = bz2file.open("enwiki-latest-pages-articles.xml.bz2", mode="rt", encoding='utf8')
+    bz_file = bz2file.open(config.wiki_file, mode="rt", encoding='utf8')
     # bz_file = open('vstup', mode='rt', encoding='utf8')
     return bz_file
 
 def open_output_file():
-    file = open("output.txt", mode="w", encoding='utf8')
+    file = open(config.parsed_names_and_alternats_file, mode="w", encoding='utf8')
     return file
 
 
@@ -51,6 +53,29 @@ def read_file(input_file, output_file, offset=0):
                     name_infobox = parse_output(name_infobox)
                     alternate_infobox = parse_output(alternate_infobox)
                     output_file.write("name: " + name_infobox + "\nalternative name: " + alternate_infobox + "\n\n")
+                    break
+                if is_infobox_end(line2):
+                    break
+
+    input_file.close()
+    output_file.close()
+
+
+def read_file_nameonly(input_file, output_file):
+    for line in iter(input_file.readline, ''):
+        if (is_infobox_start(line)):
+            name_infobox = None
+
+            for line2 in iter(input_file.readline, ''):
+                name_temp = is_name(line2)
+
+
+                if name_temp:
+                    name_infobox = name_temp
+
+                if name_infobox:
+                    name_infobox = parse_output(name_infobox)
+                    output_file.write("name: " + name_infobox + "\n\n")
                     break
                 if is_infobox_end(line2):
                     break
@@ -262,7 +287,7 @@ if __name__ == '__main__':
 
     input_file = open_input_file()
     output_file = open_output_file()
-    read_file(input_file, output_file)
+    read_file_nameonly(input_file, output_file)
     print(datetime.now())
 
 # alternative name:  Rock n roll junkie
