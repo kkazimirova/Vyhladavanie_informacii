@@ -14,20 +14,18 @@ class RecordAlternate:
         self.title = title
         self.alternates = alternates
 
-class RecordName:
-    def __init__(self, title_lower, title):
-        self.title_lower = title_lower
-        self.title = title
 
 def lines_generator(lines):
     for line in lines:
         yield line
+
 
 def parse_name(line):
     splits = line.split(":")
     name = splits[1].strip()
     name = process_name(name)
     return name
+
 
 def parse_alternative_name(line):
     splits = line.split(":")
@@ -50,7 +48,7 @@ def read_file_alternates(filename):
             name_parsed = parse_name(name)
 
             alternative_name = next(lines_gen)
-            # alternative_name = parse_alternative_name(alternative_name)
+            alternative_name = parse_alternative_name(alternative_name)
 
             _ = next(lines_gen)
 
@@ -63,7 +61,8 @@ def read_file_alternates(filename):
     file.close()
     return records
 
-def read_file_names(filename):
+
+def read_file_make_dict(filename, dict):
     file = open(filename, mode="r", encoding='utf8')
     lines = file.readlines()
     lines_gen = lines_generator(lines)
@@ -73,18 +72,20 @@ def read_file_names(filename):
     while lines:
         try:
             name = next(lines_gen)
-            name_lower = parse_name(name)
+            name_parsed = parse_name(name)
+
+            alternative_name = next(lines_gen)
+            alternative_name = parse_alternative_name(alternative_name)
 
             _ = next(lines_gen)
 
-            record = RecordName(name_lower, name)
-            records.append(record)
 
         except StopIteration:
             break
 
     file.close()
     return records
+
 
 def process_name(name):
     name = name.lower()
@@ -93,7 +94,7 @@ def process_name(name):
 
 
 def create_index_alternates(records):
-    dir_name = "indexdir_alternates"
+    dir_name = "indexdirrrr"
     if not os.path.exists(dir_name):
         os.mkdir(dir_name)
 
@@ -113,28 +114,7 @@ def create_index_alternates(records):
     return ix
 
 
-def create_index_names(records):
-    dir_name = "indexdir_names"
-    if not os.path.exists(dir_name):
-        os.mkdir(dir_name)
-
-        schema = Schema(lower=TEXT(stored=True), title=TEXT(stored=True))
-
-        ix = index.create_in(dir_name, schema)
-
-        writer = ix.writer()
-        for record in records:
-            writer.add_document(lower=u"%s" % record.title_lower, title=u"%s" % record.title)
-
-        writer.commit()
-
-    else:
-        ix = index.open_dir(dir_name)
-
-    return ix
-
-
-def search(index_alternates, index_names, term):
+def search(index_alternates, term):
     with index_alternates.searcher() as searcher:
         query = QueryParser("lower", index_alternates.schema).parse(term)
         # results = searcher.search(query, terms=True)
@@ -142,40 +122,39 @@ def search(index_alternates, index_names, term):
 
 
         if len(results) > 15:
+            for res in results[0:5]:
+                print(res.get("title"))
             print("too many matches - ", len(results))
         else:
             if results:
                 for r in results:
-                    print(r.get("title"), r.get("alternates"), "\n")
+                    title = r.get("title")
+                    alternate = r.get("alternates")
+
+                    if alternate != "alternative name:\n":
+                        print(title, alternate, "\n")
+                    else:
+                        print(title, "No alternative name found\n")
                     # if results.has_matched_terms():
                     #     print("result marched terms   ", results.matched_terms())
             else:
-                with index_names.searcher() as searcher2:
-                    query = QueryParser("lower", index_names.schema).parse(term)
-                    results = searcher2.search(query)
-
-                    if len(results) > 15:
-                        print("too many matches - ", len(results))
-                    else:
-                        if results:
-                            for r in results:
-                                print(r.get("title"), "Without alternative name\n")
-                        else:
-                            print("Not found")
+                print("Not found")
 
 
 
 
 if __name__ == '__main__':
-    records_alternates = read_file_alternates(config.parsed_names_and_alternats_file)
-    index_alternates = create_index_alternates(records_alternates)
+    tento_dict = {}
+    records_alternates = read_file_alternates(config.wikipedia_output)
 
-    records_names = read_file_names(config.parsed_names_file)
-    index_names = create_index_names(records_names)
+    index_alternates = create_index_alternates(records_alternates)
 
     while True:
         print('\nInsert Wikipedia title: ')
         input_name = input()
         input_name = process_name(input_name)
-        search(index_alternates, index_names, input_name)
+        search(index_alternates, input_name)
 
+# nickname
+
+# ukazka aj aj Harold Rothman, richard keith
