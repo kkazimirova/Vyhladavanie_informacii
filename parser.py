@@ -240,9 +240,6 @@ def parse_output(output_line):
     return output_line
 
 
-
-
-
 def lines_generator(lines):
     for line in lines:
         yield line
@@ -330,6 +327,7 @@ def make_dict_alternates_name(filename):
     file.close()
     return records
 
+
 def save_dict_name_alternate (dict):
     file = open(config.uniq_alternatives_for_name, mode="w", encoding='utf8')
 
@@ -353,12 +351,12 @@ def save_dict_alternate_name(dict):
 
 
 if __name__ == '__main__':
-    # wiki_file, parsed_infoboxes_file = open_files()
-    # wiki_file, parsed_infoboxes_file = parse_names_alternates(wiki_file, parsed_infoboxes_file)
-    # wiki_file, parsed_infoboxes_file = parse_names_only(wiki_file, parsed_infoboxes_file)
-    # close_files(wiki_file, parsed_infoboxes_file)
+    wiki_file, parsed_infoboxes_file = open_files()
+    wiki_file, parsed_infoboxes_file = parse_names_alternates(wiki_file, parsed_infoboxes_file)
+    wiki_file, parsed_infoboxes_file = parse_names_only(wiki_file, parsed_infoboxes_file)
+    close_files(wiki_file, parsed_infoboxes_file)
 
     records_names_alternatives = make_dict_name_alternates(config.parsed_infoboxes_file)
-    # save_dict_name_alternate(records_names_alternatives)
+    save_dict_name_alternate(records_names_alternatives)
     records_alternatives_names = make_dict_alternates_name(config.parsed_infoboxes_file)
-    # save_dict_alternate_name(records_alternatives_names)
+    save_dict_alternate_name(records_alternatives_names)

@@ -1,5 +1,3 @@
-import re
-
 from whoosh.fields import Schema, TEXT, ID
 from whoosh import index
 import os.path

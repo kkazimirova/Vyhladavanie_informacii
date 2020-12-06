@@ -1,8 +1,5 @@
 import re
-
-from whoosh.fields import Schema, TEXT, ID
 from whoosh import index
-import os.path
 from whoosh.qparser import QueryParser
 
 import config
@@ -31,8 +28,11 @@ def get_indexes():
 
 def parse_array_string(string):
     string = string.replace(']', '').replace('[', '')
-    string_after = re.sub('\"\'', '', string)
+    string_after = re.sub('\'\\\\\'\"', '"', string)
+    string_after = re.sub('\"\\\\\'\'', '"', string_after)
+    string_after = re.sub('\"\'', '', string_after)
     string_after = re.sub('\'\"', '', string_after)
+    string_after = re.sub('\\\\', '', string_after)
 
     return string_after
 
@@ -47,18 +47,16 @@ def print_result(key, values):
 def search(index_name_alts, index_alt_names, input):
     with index_name_alts.searcher() as searcher:
         query = QueryParser("lower", index_name_alts.schema).parse(input)
-        results = searcher.search_names(query)
+        results = searcher.search(query)
 
         print("\nSEARCH ALTERNATIVE NAMES FOR INFOBOX NAME: \n")
 
         if len(results) > 5:
-            title = results[0].get("title")
-            alternates = parse_array_string(results[0].get("alternates"))
-            print_result(title, alternates)
-
-            for res in results[1:5]:
-                print(res.get("title"))
-            print("Too many matches (", len(results), ") insert name more precisely")
+            for res in results[0:5]:
+                title = res.get("title")
+                alternates = parse_array_string(res.get("alternates"))
+                print_result(title, alternates)
+            print("...\nToo many matches (", len(results), ") insert name more precisely")
         else:
             if results:
                 for r in results:
@@ -71,7 +69,7 @@ def search(index_name_alts, index_alt_names, input):
 
     with index_alt_names.searcher() as searcher:
         query = QueryParser("lower", index_alt_names.schema).parse(input)
-        results = searcher.search_names(query)
+        results = searcher.search(query)
 
         print("\n--------------------------------------------------------- \n")
         print("SEARCH INFOBOX NAMES FOR ALTERNATIVE NAME: \n")
@@ -81,7 +79,7 @@ def search(index_name_alts, index_alt_names, input):
                 alt = res.get("alternate")
                 titles = parse_array_string(res.get("titles"))
                 print_result(alt, titles)
-            print("Too many matches (", len(results), ") insert alternative name more precisely")
+            print("...\nToo many matches (", len(results), ") insert alternative name more precisely")
         else:
             if results:
                 for r in results:
